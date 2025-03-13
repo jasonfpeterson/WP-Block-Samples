@@ -1,0 +1,16 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "create-block/simple-block-input",
+	"version": "0.1.0",
+	"title": "Jason's Simple Block (Input)",
+	"category": "custom",
+	"icon": "screenoptions",
+	"description": "A simple static block with an input field.",
+	"example": {},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "custom-blocks",
+	"editorScript": "file:./index.js"
+}
